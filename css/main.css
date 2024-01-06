@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.gjs-title, .gjs-layer-title, .gjs-traits-label, .gjs-clm-header {
+  margin: 2rem 0 0 0;
+  color: #fbbbff;
+}
+.gjs-layer-title {
+  color: black;
+}
+.fa-eye, .fa-arrows {
+  color: #fbbbff;
+}
+.gjs-layer-count {
+  color: #fbbbff;
+}
+.gjs-pn-buttons {
+  height: 3.5rem;
+  color: #C996CC;
+}
+.gjs-cv-canvas {
+  margin-top: 1.5rem ;
+}
+.gjs-one-bg {
+  background-color: #C996CC;
+  color: #fbbbff;
+}
+.gjs-block {
+  color: black;
+}
+.gjs-two-color {
+  background-color: #1C0C5B;
+}
